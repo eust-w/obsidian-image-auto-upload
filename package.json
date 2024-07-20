@@ -1,0 +1,33 @@
+{
+  "name": "obsidian-image-auto-upload",
+  "version": "1.1.0",
+  "type": "module",
+  "description": "upload images by gopic",
+  "main": "main.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "keywords": [
+    "obsidian.md",
+    "gopic"
+  ],
+  "author": "longtao.wu",
+  "authorweb": "https://longtao.fun",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@types/electron": "^1.6.10",
+    "@types/node": "^14.14.2",
+    "nodemon": "^3.1.4",
+    "obsidian": "^1.4.11",
+    "rollup": "^3.21.6",
+    "tslib": "^2.5.0",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "node-fetch-native": "^1.4.0"
+  }
+}
