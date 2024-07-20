@@ -1,8 +1,8 @@
 {
-  "id": "obsidian-image-auto-upload",
-  "name": "Image auto upload Plugin",
-  "version": "1.1.0",
-  "minAppVersion": "1.1.0",
+  "id": "fast-image-upload",
+  "name": "Fast Image Auto Uploader",
+  "version": "1.1.1",
+  "minAppVersion": "1.1.1",
   "description": "This plugin uploads images from your clipboard by goPic",
   "author": "https://longtao.fun",
   "authorUrl": "https://github.com/eust-w/obsidian-image-auto-upload",
