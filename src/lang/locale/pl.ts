@@ -1,7 +1,6 @@
 // język polski
 
 export default {
-  "Plugin Settings": "Ustawienia wtyczki GoPic",
   "Samba": "Przechowywanie samba",
   "Primary storage": "Główna pamięć",
   "Primary storage Desc": "Użyj adresu głównej pamięci jako URL obrazu w dokumentach",

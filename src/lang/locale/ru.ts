@@ -1,7 +1,6 @@
 // русский
 
 export default {
-  "Plugin Settings": "Настройки плагина GoPic",
   "Samba": "Хранение samba",
   "Primary storage": "Основное хранилище",
   "Primary storage Desc": "Используйте адрес основного хранилища в качестве URL изображения в документах",

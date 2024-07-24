@@ -1,15 +1,14 @@
 // Português
 
 export default {
-  "Plugin Settings": "Configurações do plugin GoPic",
   "Samba": "Armazenamento samba",
-  "Primary storage": "Armazenamento Primário",
+  "Primary storage": "Armazenamento primário",
   "Primary storage Desc": "Use o endereço do armazenamento primário como URL da imagem nos documentos",
-  "Gopic path": "Caminho do programa gopic",
-  "Gopic path desc": "Caminho do programa gopic",
-  "Please input gopic path": "Por favor, insira o caminho do programa gopic",
-  "Active Github": "Ativar Github",
-  "Active Github desc": "Upload sincronizado para o Github",
+  "Gopic path": "Caminho do programa GoPic",
+  "Gopic path desc": "Caminho do programa GoPic",
+  "Please input gopic path": "Por favor, insira o caminho do programa GoPic",
+  "Active Github": "Ativar GitHub",
+  "Active Github desc": "Upload sincronizado para o GitHub",
   "Active Qiniu": "Ativar armazenamento Qiniu",
   "Active Qiniu desc": "Upload sincronizado para armazenamento Qiniu",
   "Active Samba": "Ativar Samba",

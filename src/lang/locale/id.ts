@@ -1,7 +1,6 @@
 // Bahasa Indonesia
 
 export default {
-  "Plugin Settings": "Pengaturan Plugin GoPic",
   "Samba": "Penyimpanan samba",
   "Primary storage": "Penyimpanan Utama",
   "Primary storage Desc": "Gunakan alamat penyimpanan utama sebagai URL gambar di dokumen",

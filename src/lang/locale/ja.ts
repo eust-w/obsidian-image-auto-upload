@@ -1,7 +1,6 @@
 // 日本語
 
 export default {
-  "Plugin Settings": "GoPic プラグイン設定",
   "Samba": "samba ストレージ",
   "Primary storage": "主ストレージ",
   "Primary storage Desc": "ドキュメント内の画像URLとして主ストレージのアドレスを使用",

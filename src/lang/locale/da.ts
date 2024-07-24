@@ -1,7 +1,6 @@
 // Dansk
 
 export default {
-  "Plugin Settings": "GoPic pluginindstillinger",
   "Samba": "samba-lagring",
   "Primary storage": "Primær lagring",
   "Primary storage Desc": "Brug den primære lagringsadresse som billed-URL i dokumenter",

@@ -65,16 +65,12 @@ export default class imageAutoUploadPlugin extends Plugin {
         (menu: Menu, file: TFile, source: string) => {
           if (source === "canvas-menu") return false;
           if (!isAssetTypeAnImage(file.path)) return false;
-
+          if (!(file instanceof TFile)) return false;
           menu.addItem((item: MenuItem) => {
             item
               .setTitle("Upload")
               .setIcon("upload")
               .onClick(() => {
-                if (!(file instanceof TFile)) {
-                  new Notice("The selected file is not a valid TFile");
-                  return false;
-                }
                 this.fileMenuUpload(file);
               });
           });
@@ -152,7 +148,6 @@ export default class imageAutoUploadPlugin extends Plugin {
             this.goPicUploader
               .uploadFiles(imageList.map(item => item.path))
               .then(res => {
-                console.log("resssss1:", res);
                 let value = this.helper.getValue();
                 imageList.map(item => {
                   const url = res[0];

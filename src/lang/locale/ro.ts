@@ -1,7 +1,6 @@
 // Română
 
 export default {
-  "Plugin Settings": "Setări plugin GoPic",
   "Samba": "Stocare samba",
   "Primary storage": "Stocare principală",
   "Primary storage Desc": "Folosiți adresa stocării principale ca URL al imaginii în documente",

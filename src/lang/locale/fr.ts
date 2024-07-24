@@ -1,7 +1,6 @@
 // français
 
 export default {
-  "Plugin Settings": "Paramètres du plugin GoPic",
   "Samba": "Stockage samba",
   "Primary storage": "Stockage principal",
   "Primary storage Desc": "Utilisez l'adresse du stockage principal comme URL des images dans les documents",

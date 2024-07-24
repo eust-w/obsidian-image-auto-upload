@@ -1,7 +1,6 @@
 // 繁體中文
 
 export default {
-  "Plugin Settings": "GoPic 插件設定",
   "Samba": "samba存儲",
   "Primary storage": "主存儲",
   "Primary storage Desc": "使用主存儲的地址作為文件中的圖片URL",

@@ -42,7 +42,6 @@ export class PicGoUploader {
     return response;
   }
 
-  // 异步方法，按数据上传文件
   async uploadFileByData(fileList: FileList | File[]): Promise<any> {
     const form = new FormData();
     let filelistRaw: Array<string> = [];
@@ -51,7 +50,6 @@ export class PicGoUploader {
       for (let i = 0; i < fileList.length; i++) {
         const file = fileList[i];
         form.append("list", file);
-        console.log('Uploading file:', file.name);
         const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
         const filePath = path.join(os.tmpdir(), `${uniqueSuffix}-${file.name}`);
 
@@ -69,7 +67,6 @@ export class PicGoUploader {
 
     await readFiles();
 
-    console.log("uploadFileByDataraw", filelistRaw);
 
     return new Promise((resolve, reject) => {
       const files = filelistRaw.join(' ');
@@ -92,9 +89,7 @@ export class PicGoUploader {
       }
 
       const command = this.settings.GopicPath+` upload ${storages} -p ${files} -f `+this.settings.PrimaryStorage;
-      console.log("command", command);
       exec(command, async (error, stdout, stderr) => {
-        // 删除临时文件
         for (const filePath of filelistRaw) {
           await fs.unlink(filePath);
         }

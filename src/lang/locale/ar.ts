@@ -1,7 +1,6 @@
 // العربية
 
 export default {
-  "Plugin Settings": "إعدادات المكونات الإضافية GoPic",
   "Samba": "تخزين samba",
   "Primary storage": "التخزين الأساسي",
   "Primary storage Desc": "استخدم عنوان التخزين الأساسي كعنوان URL للصور في المستندات",

@@ -1,7 +1,6 @@
 // Italiano
 
 export default {
-  "Plugin Settings": "Impostazioni del plugin GoPic",
   "Samba": "Archiviazione samba",
   "Primary storage": "Archiviazione primaria",
   "Primary storage Desc": "Utilizza l'indirizzo dell'archiviazione primaria come URL dell'immagine nei documenti",

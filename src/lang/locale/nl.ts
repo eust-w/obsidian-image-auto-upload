@@ -1,7 +1,6 @@
 // Nederlands
 
 export default {
-  "Plugin Settings": "GoPic Plugin-instellingen",
   "Samba": "samba-opslag",
   "Primary storage": "Primaire opslag",
   "Primary storage Desc": "Gebruik het adres van de primaire opslag als de afbeeldings-URL in documenten",

@@ -1,7 +1,6 @@
 // हिन्दी
 
 export default {
-  "Plugin Settings": "GoPic प्लगइन सेटिंग्स",
   "Samba": "samba भंडारण",
   "Primary storage": "प्राथमिक भंडारण",
   "Primary storage Desc": "दस्तावेज़ों में चित्र URL के रूप में प्राथमिक भंडारण का पता उपयोग करें",

@@ -19,8 +19,6 @@ export default class Cache {
 
   getEditor() {
     const mdView = this.app.workspace.getActiveViewOfType(MarkdownView);
-    console.log("mdView:",mdView)
-    console.log("MarkdownView:",MarkdownView)
     if (mdView) {
       return mdView.editor;
     } else {
@@ -29,7 +27,6 @@ export default class Cache {
   }
   getValue() {
     const editor = this.getEditor();
-    console.log("editor:",editor)
     return editor.getValue();
   }
 

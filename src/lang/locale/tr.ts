@@ -1,7 +1,6 @@
 // Türkçe
 
 export default {
-  "Plugin Settings": "GoPic Eklenti Ayarları",
   "Samba": "samba depolama",
   "Primary storage": "Birincil Depolama",
   "Primary storage Desc": "Belgelerdeki resim URL'si olarak birincil depolama adresini kullanın",

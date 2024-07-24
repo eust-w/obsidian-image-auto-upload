@@ -31,9 +31,6 @@ export class SettingTab extends PluginSettingTab {
   display(): void {
     let { containerEl } = this;
     containerEl.empty();
-    containerEl.createEl("h2", { text: t("Plugin Settings") });
-
-    //选择哪一个作为主要上传内容
     new Setting(containerEl)
       .setName(t("Primary storage"))
       .setDesc(t("Primary storage Desc"))

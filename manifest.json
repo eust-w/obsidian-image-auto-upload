@@ -3,7 +3,7 @@
   "name": "Fast Image Auto Uploader",
   "version": "1.1.1",
   "minAppVersion": "1.1.1",
-  "description": "This plugin uploads images from your clipboard by goPic",
+  "description": "Uploads clipboard images using goPic",
   "author": "Longtao Wu",
   "isDesktopOnly": true
 }
