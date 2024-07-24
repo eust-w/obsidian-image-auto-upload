@@ -1,8 +1,8 @@
 {
   "id": "fast-image-upload",
   "name": "Fast Image Auto Uploader",
-  "version": "1.1.1",
-  "minAppVersion": "1.1.1",
+  "version": "1.1.2",
+  "minAppVersion": "1.1.2",
   "description": "Uploads clipboard images using goPic",
   "author": "Longtao Wu",
   "isDesktopOnly": true

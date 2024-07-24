@@ -1,6 +1,6 @@
 {
   "name": "fast-image-upload",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "type": "module",
   "description": "upload images by gopic",
   "main": "main.js",
