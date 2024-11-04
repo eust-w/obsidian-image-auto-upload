@@ -2,15 +2,29 @@ import typescript from "@rollup/plugin-typescript";
 import { nodeResolve } from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import json from "@rollup/plugin-json";
+import alias from "@rollup/plugin-alias";
+import { terser } from "rollup-plugin-terser";
 
 export default {
   input: "src/main.ts",
   output: {
-    dir: ".",
-    sourcemap: "inline",
-    format: "cjs",
+    dir: "dist",
+    sourcemap: true,
+    format: "esm",
     exports: "default",
   },
   external: ["obsidian", "electron"],
-  plugins: [typescript(), nodeResolve({ browser: false }), commonjs(), json()],
+  treeshake: true,
+  plugins: [
+    alias({
+      entries: [
+        { find: "@src", replacement: "./src" },
+      ],
+    }),
+    typescript(),
+    nodeResolve({ browser: false }),
+    commonjs(),
+    json(),
+    terser(),  // Minify for production
+  ],
 };
